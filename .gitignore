@@ -1,0 +1,6 @@
+# input files
+input/
+tmp/
+
+# os files
+.DS_Store

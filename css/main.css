@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,300,400');
+
+
+body {
+     font-family: 'Exo 2', sans-serif;
+     color: #FFF;
+     font-weight: 100;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+#wrapper {
+    height: 830px;
+    min-height: 830px;
+    width: 2000px;
+    background-color: #0F0D17;
+}
+
+/* company */
+
+.company-name {
+    font-weight: 400;
+}
+
+ul.company-features {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+li.odd-feature {
+    color: #FFF;
+}
+
+.feature-number {
+    vertical-align: super;
+    font-size: 70%;
+}
+
+.feature-description {
+    text-transform: uppercase;
+}
+
+#company-world-view > div.company-name {
+    color: #FBAD95;
+}
+
+#company-world-view li.even-feature {
+    color: #FBAD95;
+}
+
+
+/* km points */
+.km-point {
+    color: #e96428;
+}
+
+.km-label {
+    border-bottom: 1px solid #e96428;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.km-description {
+    text-transform: uppercase;
+    font-size: 7px;
+}
+
+#km-0 {
+    position: absolute;
+    left: 10px;
+}
+
+#km-10-tick {
+    background: transparent url("../img/tick_distance.png") no-repeat;
+    position: absolute;
+    width: 39.5px;
+    height: 26px;
+}
+
+#km-10 {
+    position: absolute;
+    left: 80px;
+}
+
+
+
+#km-40 {
+    position: absolute;
+    left: 300px;
+}
+
+#km-100 {
+    position: absolute;
+    left: 450px;
+}
+
+#km-200 {
+    position: absolute;
+    left: 600px;
+}
+
+#km-400 {
+    position: absolute;
+    left: 750px;
+}
+
+#km-400000 {
+    position: absolute;
+    left: 900px;
+}
+
+/* elements positions */
+#logo-world-view {
+    /*position: absolute;
+    left: 180px;
+    bottom: 200px;*/
+    background: url(../img/worldview.svg) no-repeat top left;
+}
+#company-world-view {
+    position: absolute;
+    left: 180px;
+    bottom: 200px;
+}
+
+#km-30 {
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+}
