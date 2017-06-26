@@ -188,6 +188,12 @@ li.odd-feature {
     color: #E96428;
 }
 
+#logo-key {
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
 /* km points */
 .km-point {
     color: #E96428;
