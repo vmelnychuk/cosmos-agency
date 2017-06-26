@@ -9,6 +9,13 @@ body {
      background-color: #0F0D17;
 }
 
+.no-select {
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 h2 {
     font-weight: 400;
 }
@@ -17,9 +24,18 @@ h2 {
     height: 830px;
     min-height: 830px;
     width: 2000px;
+}
+
+.cursor-grab {
     cursor: -moz-grab;
     cursor: -webkit-grab;
     cursor: grab;
+}
+
+.cursor-grabbing {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
 }
 
 /* flex */
