@@ -194,6 +194,11 @@ li.odd-feature {
     margin-top: 10px;
 }
 
+#logo-plane {
+    height: 80px;
+    margin-top: 35px;
+}
+
 /* km points */
 .km-point {
     color: #E96428;
