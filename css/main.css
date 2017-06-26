@@ -86,7 +86,6 @@ h2 {
 .company-flag {
     width: 12px;
     height: 12px;
-    margin-left: 5px;
 }
 
 .company-name {
@@ -197,6 +196,14 @@ li.odd-feature {
 #logo-plane {
     height: 80px;
     margin-top: 35px;
+}
+
+.flag-key p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #E96428;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* km points */
