@@ -17,6 +17,9 @@ h2 {
     height: 830px;
     min-height: 830px;
     width: 2000px;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
 }
 
 /* flex */
