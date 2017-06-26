@@ -9,6 +9,10 @@ body {
      background-color: #0F0D17;
 }
 
+h2 {
+    font-weight: 400;
+}
+
 .no-select {
      -webkit-user-select: none;
     -moz-user-select: none;
@@ -16,14 +20,10 @@ body {
     user-select: none;
 }
 
-h2 {
-    font-weight: 400;
-}
-
 #wrapper {
     height: 830px;
     min-height: 830px;
-    width: 2000px;
+    width: 1800px;
 }
 
 .cursor-grab {
@@ -67,11 +67,13 @@ h2 {
     width: 300px;
     text-transform: uppercase;
     font-size: 24px;
+    margin-left: 60px;
 }
 
 /* info */
 .info {
     width: 120px;
+    margin-left: 60px;
 }
 
 .info-item {
@@ -215,6 +217,8 @@ li.odd-feature {
 #logo-plane {
     height: 80px;
     margin-top: 35px;
+    margin-left: 146px;
+    margin-right: 60px;
 }
 
 .flag-key p {
@@ -241,14 +245,94 @@ li.odd-feature {
     font-size: 7px;
 }
 
+#km-0 {
+    margin-left: 20px;
+}
+
+#km-10 {
+    margin-left: 110px;
+}
+
+#km-30 {
+    margin-left: 140px;
+}
+
+#km-40 {
+    margin-left: 75px;
+}
+
+#km-100 {
+    margin-left: 336px;
+}
+
+#km-200 {
+    margin-left: 95px;
+}
+
+#km-400 {
+    margin-left: 140px;
+}
+
+#km-400000 {
+    margin-left: 161px;
+}
 
 /* elements positions */
 #company-world-view,
 #company-xcor-aerospace,
-#company-zero-2-infinity,
-#company-blue-origin {
+#company-zero-2-infinity {
     margin-right: 100px;
 }
 
+#company-blue-origin {
+    margin-right: 100px;
+    margin-left: -4px;
+}
 
+#logo-zero-2-infinity {
+    margin-left: 30px;
+}
 
+#logo-virgin-galactic {
+    margin-left: 140px;
+}
+
+#logo-spacex{
+    margin-left: 411px;
+}
+
+/* distance */
+.earth-distance {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    height: 1000px;
+}
+
+#distance-10 {
+    left: 150px;
+}
+
+#distance-30 {
+    left: 352px;
+}
+
+#distance-40 {
+    left: 501px;
+}
+
+#distance-100 {
+    left: 899px;
+}
+
+#distance-200 {
+    left: 1068px;
+}
+
+#distance-400 {
+    left: 1290px;
+}
+
+#distance-400000 {
+    left: 1540px;
+}
