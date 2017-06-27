@@ -254,31 +254,31 @@ li.odd-feature {
 }
 
 #km-10 {
-    margin-left: 110px;
-}
-
-#km-30 {
-    margin-left: 140px;
-}
-
-#km-40 {
-    margin-left: 75px;
-}
-
-#km-100 {
-    margin-left: 336px;
-}
-
-#km-200 {
     margin-left: 95px;
 }
 
+#km-30 {
+    margin-left: 136px;
+}
+
+#km-40 {
+    margin-left: 61px;
+}
+
+#km-100 {
+    margin-left: 347px;
+}
+
+#km-200 {
+    margin-left: 90px;
+}
+
 #km-400 {
-    margin-left: 140px;
+    margin-left: 139px;
 }
 
 #km-400000 {
-    margin-left: 161px;
+    margin-left: 162px;
 }
 
 /* elements positions */
@@ -353,6 +353,45 @@ li.odd-feature {
     left: 1540px;
 }
 
+/* distance-ticks */
+.distance-tick {
+    position: absolute;
+    top: 950px;
+    width: 32px;
+}
+
+#distance-tick-0 {
+    left: -1px;
+}
+
+#distance-tick-10 {
+    left: 149px;
+}
+
+#distance-tick-30 {
+    left: 350px;
+}
+
+#distance-tick-40 {
+    left: 480px;
+}
+
+#distance-tick-100 {
+    left: 897px;
+}
+
+#distance-tick-200 {
+    left: 1066px;
+}
+
+#distance-tick-400 {
+    left: 1288px;
+}
+
+#distance-tick-400000 {
+    left: 1537px;
+}
+
 /* objects */
 #mks {
     position: absolute;
@@ -413,4 +452,17 @@ li.odd-feature {
     margin-top: 0px;
     margin-bottom: 6px;
     font-size: 10px;
+}
+
+#graphics-info {
+    position: absolute;
+    top: 950px;
+    left: 650px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#graphics-info a {
+    color: #E96428;
+    text-decoration: none;
 }
