@@ -1,59 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   id="svg2"
-   height="31.200001"
-   width="31.200001">
-  <metadata
-     id="metadata21">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs4">
-    <filter
-       id="Filter_0">
-      <feFlood
-         id="feFlood7"
-         result="floodOut"
-         flood-opacity="1"
-         flood-color="rgb(137, 205, 249)" />
-      <feComposite
-         id="feComposite9"
-         result="compOut"
-         in2="SourceGraphic"
-         in="floodOut"
-         operator="atop" />
-      <feBlend
-         id="feBlend11"
-         in2="SourceGraphic"
-         in="compOut"
-         mode="normal" />
-    </filter>
-  </defs>
-  <g
-     transform="translate(0.60000014,0.60000014)"
-     style="filter:url(#Filter_0)"
-     id="g13">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#96ebcc;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:16, 8, 8, 8"
-       id="path15"
-       d="M 15,2 C 22.18,2 28,7.82 28,15 28,22.18 22.18,28 15,28 7.82,28 2,22.18 2,15 2,7.82 7.82,2 15,2 Z" />
-  </g>
-  <path
-     style="fill:none;stroke:#96ebcc;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:16, 8, 8, 8"
-     id="path17"
-     d="m 15.6,2.6000001 c 7.18,0 13,5.82 13,12.9999999 0,7.18 -5.82,13 -13,13 -7.1799999,0 -12.9999999,-5.82 -12.9999999,-13 0,-7.1799999 5.82,-12.9999999 12.9999999,-12.9999999 z" />
-</svg>
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="-281 404.9 30 30"
+   enable-background="new -281 404.9 32 32"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dot_svg.svg"
+   width="30"
+   height="30"><metadata
+     id="metadata9"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs7" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.375"
+     inkscape:cx="15"
+     inkscape:cy="15.000006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" /><path
+     d="m -266,406.89999 c 7.2,0 13,5.8 13,13 0,7.2 -5.8,13 -13,13 -7.2,0 -13,-5.8 -13,-13 0,-7.2 5.8,-13 13,-13 z"
+     id="path3"
+     inkscape:connector-curvature="0"
+     style="fill:#0f0d17;stroke:#e96428;stroke-width:4;stroke-dasharray:16, 8, 8, 8" /></svg>
