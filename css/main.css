@@ -121,6 +121,10 @@ ul.company-features {
     font-size: 12px;
 }
 
+ul.company-features li {
+    margin-bottom: 3px;
+}
+
 li.odd-feature {
     color: #FFF;
 }
@@ -130,9 +134,9 @@ li.odd-feature {
     font-size: 70%;
 }
 
-.feature-description {
+/*.feature-description {
     text-transform: uppercase;
-}
+}*/
 
 #company-world-view > div.company-name {
     color: #FBAD95;
@@ -279,14 +283,26 @@ li.odd-feature {
 
 /* elements positions */
 #company-world-view,
-#company-xcor-aerospace,
 #company-zero-2-infinity {
     margin-right: 100px;
 }
 
+#company-xcor-aerospace {
+    margin-right: 100px;
+    margin-left: 13px;
+}
+
 #company-blue-origin {
     margin-right: 100px;
-    margin-left: -4px;
+    margin-left: 21px;
+}
+
+#company-kosmo-kurs {
+    margin-left: 9px;
+}
+
+#logo-space-adventures {
+    margin-left: 14px;
 }
 
 #logo-zero-2-infinity {
@@ -298,7 +314,7 @@ li.odd-feature {
 }
 
 #logo-spacex{
-    margin-left: 411px;
+    margin-left: 424px;
 }
 
 /* distance */
@@ -318,7 +334,7 @@ li.odd-feature {
 }
 
 #distance-40 {
-    left: 501px;
+    left: 483px;
 }
 
 #distance-100 {
