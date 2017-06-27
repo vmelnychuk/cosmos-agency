@@ -352,3 +352,65 @@ li.odd-feature {
 #distance-400000 {
     left: 1540px;
 }
+
+/* objects */
+#mks {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 1230px;
+    height: 120px;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#mks-info {
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    left: 1230px;
+    width: 225px;
+    color: #423E51;
+}
+
+#mks-info h2 {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+#mks-info p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+#moon {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 1480px;
+    height: 120px;
+}
+
+#moon-info {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 1615px;
+    width: 175px;
+    color: #423E51;
+}
+
+#moon-info h2 {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+#moon-info p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 10px;
+}
