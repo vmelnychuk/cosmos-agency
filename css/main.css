@@ -23,7 +23,7 @@ h2 {
 #wrapper {
     height: 830px;
     min-height: 830px;
-    width: 1800px;
+    width: 2000px;
 }
 
 .cursor-grab {
@@ -45,9 +45,16 @@ h2 {
 .fourth-row {
     display: flex;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 /* about */
+#about {
+    position: absolute;
+    left: 1615px;
+    top: 790px;
+    width: 170px;
+}
 #site-logo {
     width: 125px;
 }
@@ -64,22 +71,26 @@ h2 {
 
 /* title */
 .title {
-    width: 300px;
+    width: 330px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 60px;
 }
 
 /* info */
 .info {
-    width: 120px;
+    width: 160px;
     margin-left: 60px;
+}
+
+.info-title {
+    font-weight: 400;
 }
 
 .info-item {
     font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 1em;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .info-link {
@@ -216,6 +227,7 @@ li.odd-feature {
     height: 40px;
     margin-right: 5px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 #logo-plane {
@@ -283,26 +295,25 @@ li.odd-feature {
 
 /* elements positions */
 #company-world-view,
-#company-zero-2-infinity {
-    margin-right: 100px;
-}
-
+#company-zero-2-infinity,
 #company-xcor-aerospace {
     margin-right: 100px;
-    margin-left: 13px;
 }
 
-#company-blue-origin {
-    margin-right: 100px;
-    margin-left: 21px;
-}
-
-#company-kosmo-kurs {
-    margin-left: 9px;
+#logo-blue-origin {
+    margin-left: 152px;
 }
 
 #logo-space-adventures {
-    margin-left: 14px;
+    margin-left: 115px;
+}
+
+#logo-xcor-aerospace {
+    margin-left: 13px;
+}
+
+#logo-kosmo-kurs {
+    margin-left: 8px;
 }
 
 #logo-zero-2-infinity {
@@ -310,7 +321,7 @@ li.odd-feature {
 }
 
 #logo-virgin-galactic {
-    margin-left: 140px;
+    margin-left: 51px;
 }
 
 #logo-spacex{
@@ -353,10 +364,10 @@ li.odd-feature {
     left: 1540px;
 }
 
-/* distance-ticks */
+/* distance ticks */
 .distance-tick {
     position: absolute;
-    top: 950px;
+    top: 959px;
     width: 32px;
 }
 
@@ -433,11 +444,19 @@ li.odd-feature {
     height: 120px;
 }
 
+#moon-orbits {
+    position: absolute;
+    z-index: 1;
+    top: 391px;
+    left: 1561px;
+    height: 137px;
+}
+
 #moon-info {
     position: absolute;
     z-index: 1;
-    top: 400px;
-    left: 1615px;
+    top: 385px;
+    left: 1625px;
     width: 175px;
     color: #423E51;
 }
@@ -456,13 +475,30 @@ li.odd-feature {
 
 #graphics-info {
     position: absolute;
-    top: 950px;
-    left: 650px;
+    top: 35px;
+    left: 72px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #graphics-info a {
     color: #E96428;
     text-decoration: none;
+}
+
+#space-adventures-line {
+    position: absolute;
+    left: 1313px;
+    top: 343px;
+    width: 243px;
+    height: 3px;
+    z-index: -2;
+}
+
+#space-adventures-tick {
+    position: absolute;
+    left: 1554px;
+    top: 339px;
+    width: 12px;
+    height: 12px;
 }
