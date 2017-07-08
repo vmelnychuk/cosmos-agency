@@ -19,3 +19,23 @@ window.addEventListener('mouseup', function (e) {
     document.getElementById("wrapper").classList.add('cursor-grab');
     document.getElementById("wrapper").classList.remove('cursor-grabbing');
 });
+
+
+/* modal window */
+var modal = document.getElementById("blue-origin-modal");
+var btn = document.querySelector("#company-blue-origin > div");
+var close = document.getElementsByClassName("close")[0];
+
+btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+close.onclick = function () {
+    modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
