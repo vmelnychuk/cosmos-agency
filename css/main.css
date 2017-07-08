@@ -6,6 +6,8 @@ body {
      font-weight: 400;
      margin: 10px;
      background-color: #0F0D17;
+     background-image: url('../img/left_bg_light.png');
+     background-repeat: repeat-y;
 }
 
 h2 {
