@@ -40,6 +40,7 @@ h2 {
 }
 
 /* flex */
+.zero-row,
 .first-row,
 .second-row,
 .third-row,
@@ -338,7 +339,7 @@ li.odd-feature {
     position: absolute;
     z-index: -1;
     top: 0px;
-    height: 1000px;
+    height: 1072px;
 }
 
 #distance-10 {
@@ -411,7 +412,7 @@ li.odd-feature {
 /* objects */
 #mks {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     top: 0px;
     left: 1230px;
     height: 160px;
@@ -482,7 +483,7 @@ li.odd-feature {
 
 #graphics-info {
     position: absolute;
-    top: 35px;
+    top: 105px;
     left: 72px;
     text-transform: uppercase;
     font-size: 10px;
@@ -508,4 +509,49 @@ li.odd-feature {
     top: 326px;
     width: 12px;
     height: 12px;
+}
+
+/* top distance */
+.km-label-top {
+    color: #E96428;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.top-distance-tick {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+#km-0-top {
+    margin-left: -10px;
+}
+
+#km-10-top {
+    margin-left: 88px;
+}
+
+#km-30-top {
+    margin-left: 131px;
+}
+
+#km-40-top {
+    margin-left: 58px;
+}
+
+#km-100-top {
+    margin-left: 342px;
+}
+
+#km-200-top {
+    margin-left: 87px;
+}
+
+#km-400-top {
+    margin-left: 139px;
+}
+
+#km-400000-top {
+    margin-left: 164px;
 }
